@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.controls {
+  margin-top: 1rem;
+}
+
+select {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+#productContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.product {
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+}
